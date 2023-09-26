@@ -13,7 +13,7 @@ pao.t = 12
 let carne = new Object()
 carne.t = 15
 
-let comidaOriginal = prompt("Olá, em nossa loja você encontrará MUITA variedade, MUITA mesmo, dê uma olhada no cardápio!\nCarne R$0!\nPão R$0!\nPode escolher, demore o quanto precisar XD!")
+let comidaOriginal = prompt("Olá, em nossa loja você encontrará MUITA variedade, MUITA mesmo, pelo que eu vejo sua barriga precisa de 10 nutrientes para ficar cheia, dê uma olhada no cardápio!\n\nCarne: 15 mordidas, 2 nutrientes para cada\nPão: 12 mordidas, 1 nutriente para cada\n\nPode escolher, demore o quanto precisar XD!")
 
 function removerAcentos(comidaOriginal) {
   return comidaOriginal.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -39,7 +39,7 @@ while (!user.cheio()) {
 }
 
 if (comida === "pao") {
-  alert("Hmmmm que delícia ein, seu buchinho agora está cheio.\n Nossa quanta fome, seu pãozinho até acabou.\n\nMuito obrigado pela visita! Volte Sempre!!! XD")
+  alert("Seu buchinho agora está cheio!\nSeu pãozinho só tem mais " + pao.t + " mordidinhas, já embalamos para viagem, assim vc pode se deliciar depois.\n\nMuito obrigado pela visita! Volte Sempre!!! XD")
 } else if (comida === "carne") {
-  alert("Hmmmm que delícia ein, seu buchinho agora está cheio, sua carninha só tem mais " + carne.t + " mordidinhas, já embalamos para viagem, assim vc pode se deliciar depois.\n\nMuito obrigado pela visita! Volte Sempre!!! XD ")
+  alert("Seu buchinho agora está cheio!\nSua carninha só tem mais " + carne.t + " mordidinhas, já embalamos para viagem, assim vc pode se deliciar depois.\n\nMuito obrigado pela visita! Volte Sempre!!! XD ")
 }
