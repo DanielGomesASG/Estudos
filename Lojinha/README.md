@@ -1,4 +1,4 @@
-# Criando do zero um código para revisar conceitos como:
+# Algoritmo criado revisando conceitos como:
 - POO
 - Normalização de dados
 - Funções e parâmetros
