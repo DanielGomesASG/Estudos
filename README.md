@@ -1,2 +1,2 @@
 # Estudos
-Repositório aonde subo alguns treinos, revisões e novos conhecimentos em todo tipo de linguagem.
+Repositório a onde subo alguns treinos, revisões e novos conhecimentos em todo tipo de linguagem.
