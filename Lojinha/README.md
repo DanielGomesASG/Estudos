@@ -1,4 +1,4 @@
-# Algoritmo criado revisando conceitos como:
+# Algoritmo simples revisando conceitos como:
 - POO
 - Normalização de dados
 - Funções e parâmetros
