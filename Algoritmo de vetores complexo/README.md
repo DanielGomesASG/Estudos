@@ -1,0 +1,2 @@
+# Algoritmo de pesquisa em vetores complexo
+O algoritmo feito em modo estrito acessa um array com quaisquer valores, ordena os valores em ordem decrescente e retorna em qualquer caso, dois subsets em ordem crescente, sendo o primeiro, a quantidade mínima de valores no array que somados são maiores que a soma do restante, e o segundo, o restante.
